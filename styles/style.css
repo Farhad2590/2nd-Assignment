@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+}
+
+.span-orange {
+    color: #FF5400;
+}
+
+/* nav items starts here*/
+header {
+    margin-top: 50px;
+}
+
+nav {
+    display: flex;
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.nav-logo {
+    width: 50%;
+    display: flex;
+}
+
+.nav-logo img {
+    width: 50px;
+}
+
+.nav-logo p {
+    font-size: 2rem;
+    font-weight: 800;
+    color: #131318;
+    ;
+}
+
+.nav-item {
+    width: 50%;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: #424247;
+    font-weight: 400;
+}
+
+.nav-bar {
+    display: none;
+}
+
+/* nav items ends here*/
+/* banner section starts here  */
+.banner {
+    max-width: 850px;
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url("../images/group-13.png");
+    margin: 0 auto;
+    background-size: cover;
+    color: aliceblue;
+    /* width: 100%; */
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-top: 50px;
+}
+
+.banner h1 {
+    color: #FFF;
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.banner p {
+    color: #FFF;
+    text-align: center;
+    font-weight: 400;
+    padding: 0px 100px;
+    margin-bottom: 60px;
+}
+
+.banner-input-field {
+    display: flex;
+    /* align-items: flex-start; */
+    gap: 20px;
+    padding: 16px;
+    margin: 0px 50px;
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 0.30);
+}
+
+.banner-input-field input {
+    border-radius: 6px;
+    background: #FFF;
+    font-weight: 400;
+    color: rgba(19, 19, 24, 0.50);
+    padding: 8px 0px 8px 4px;
+}
+
+.banner-input-submit {
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-weight: 700;
+    padding: 8px 10px 8px 10px;
+}
+
+/* banner section ends here  */
+
+/* popular tours start here   */
+.popular-tours {
+    max-width: 850px;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    gap: 30px;
+}
+
+.popular-text-container {
+    width: 400px;
+    /* padding-right: 30px; */
+
+
+
+}
+
+.popular-text-container h2 {
+    font-weight: 800;
+    color: #131318;
+    font-size: 1.5rem;
+}
+
+.popular-text-container p {
+    color: #5A5A5D;
+    font-weight: 400;
+    margin-top: 15px;
+
+}
+
+.popular-text-container ul {
+    padding-left: 20px;
+    color: #5A5A5D;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.btn-primary {
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 800;
+    padding: 14px 26px;
+}
+
+.popular-text-container .btn-primary {
+    margin-top: 15px;
+}
+
+.popular-image-container {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.popular-image-container img {
+    width: 100%;
+}
+
+/* popular tours ends here   */
+/* choose destination starts here */
+.Your-destination {
+    text-align: center;
+    margin-top: 100px;
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+/* .destination-image-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2,1fr;
+    grid-area: auto;
+
+} */
+.container-1 {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 5px;
+}
+
+.container-2 {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 5px;
+
+}
+
+.container-3 {
+    display: flex;
+    gap: 10px;
+}
+
+.destination-image-container img {
+    width: 100%;
+    height: auto;
+}
+
+/* choose destination ends here */
+
+/* Newsletter section starts here  */
+.from {
+    display: flex;
+    max-width: 850px;
+    margin: 0 auto;
+    margin-top: 100px;
+    gap: 6%;
+
+}
+
+.from-text-container {
+    width: 47%;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+}
+
+.from-image-container {
+    width: 47%;
+    border-radius: 16px;
+}
+.from-image-container img{
+    width: 100%;
+}
+.form-iput{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* Newsletter section ends here  */

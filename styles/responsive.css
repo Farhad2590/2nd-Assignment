@@ -1,0 +1,59 @@
+@media screen and (max-width : 600px) {
+    /* *{
+        padding: 5px;
+    } */
+/* nav items starts here*/
+.nav-item{
+    visibility: hidden;
+}
+.nav-logo p{
+    /* width: 70%; */
+    font-size: 1.50rem;
+}
+.nav-logo img{
+    width: 40px;
+}
+.nav-bar{
+    display: block;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+/* nav items ends here*/
+
+/* banner section starts here  */
+.banner-input-field{
+    /* display: flex; */
+    flex-direction: column;
+}
+.banner h1 {
+   
+    font-size: 1.5rem;
+}
+.banner p{
+    padding: 0px 25px;
+}
+/* banner section ends here  */
+
+/* popular tours start here   */
+
+
+/* popular tours ends here   */
+
+/* choose destination starts here */
+
+.container-1 , .container-2 , .container-3{
+    flex-direction: column;
+}
+
+/* choose destination ends here */
+
+
+/* Newsletter section starts here  */
+
+/* Newsletter section ends here  */
+
+
+
+}
+
+
