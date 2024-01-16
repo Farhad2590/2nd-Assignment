@@ -278,13 +278,13 @@ nav {
 }
 
 
-.service-we-provide-container {
+.service-provide-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
 }
 
-.image-container {
+.service-image-container {
     position: relative;
     overflow: hidden;
     border-radius: 8px;

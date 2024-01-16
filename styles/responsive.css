@@ -58,7 +58,7 @@
 
 /* choose destination ends here */
 /* service we provide starts here */
-.service-we-provide-container {
+.service-provide-container {
     grid-template-columns: repeat(2, 1fr);
  
 }
