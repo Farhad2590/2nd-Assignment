@@ -425,6 +425,9 @@ nav {
 .bengal-vedio-container{
     width: 50%;
 }
+.bengal-vedio-container video{
+    width: 100%;
+}
 /* drive the bengal ends here  */
 
 /* Newsletter section starts here  */

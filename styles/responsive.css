@@ -33,7 +33,6 @@
     flex-direction: column;
 }
 .banner h1 {
-   
     font-size: 1.5rem;
 }
 .banner p{
@@ -74,8 +73,6 @@
 }
 .choose-us-accomodation {
     width: 100%;
-   
-
 }
 
 .choose-us-discounts {
@@ -103,8 +100,7 @@
 /* Newsletter section starts here  */
 .from {
     flex-direction: column;
-    gap: 12px
-    ;
+    gap: 12px;
 
 }
 .from-text-container {
