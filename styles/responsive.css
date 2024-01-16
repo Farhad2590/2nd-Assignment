@@ -3,8 +3,12 @@
         padding: 5px;
     } */
 /* nav items starts here*/
+/* *body{
+    max-width: fit-content;
+    margin: 10px;
+} */
 .nav-item{
-    visibility: hidden;
+    display: none;
 }
 .nav-logo p{
     /* width: 70%; */
@@ -35,8 +39,15 @@
 /* banner section ends here  */
 
 /* popular tours start here   */
-
-
+.popular-tours{
+    flex-direction: column;
+}
+.popular-text-container {
+    width: 100%;
+}
+.popular-image-container {
+    width: 100%;
+}
 /* popular tours ends here   */
 
 /* choose destination starts here */
@@ -46,13 +57,52 @@
 }
 
 /* choose destination ends here */
+/* service we provide starts here */
+.service-we-provide-container {
+    grid-template-columns: repeat(2, 1fr);
+ 
+}
+/* service we provide ends here */
+/* why choose us section starts here  */
+.choose-us-container{
+    flex-direction: column;
+    gap: 20px
+    ;
+}
+.choose-us-accomodation {
+    width: 100%;
+   
 
+}
+
+.choose-us-discounts {
+    width: 100%;
+   
+
+}
+/* why choose us section ends here  */
 
 /* Newsletter section starts here  */
+.from {
+    flex-direction: column;
+    gap: 12px
+    ;
 
+}
+.from-text-container {
+    width: 100%;
+   
+}
+.from-image-container {
+    width: 100%;
+   
+}
 /* Newsletter section ends here  */
 
+footer{
 
+    padding: 50px;
+}
 
 }
 
