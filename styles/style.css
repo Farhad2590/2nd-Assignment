@@ -392,6 +392,35 @@ nav {
 }
 
 /* why choose us section ends here  */
+/* drive the bengal starts here  */
+.drive-the-bengal{
+    display: flex;
+    gap: 5%;
+    margin-top: 100px;
+}
+.bengal-text-container{
+    width: 45%;
+}
+.bengal-text-container h2 {
+    font-weight: 800;
+    color: #131318;
+    font-size: 1.5rem;
+}
+.bengal-text-container ul{
+    padding-left: 25px;
+}
+
+.bengal-text-container p {
+    color: #5A5A5D;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+.bengal-vedio-container{
+    width: 50%;
+}
+/* drive the bengal ends here  */
 
 /* Newsletter section starts here  */
 .from {

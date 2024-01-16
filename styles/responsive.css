@@ -81,7 +81,17 @@
 
 }
 /* why choose us section ends here  */
-
+/* drive the bengal starts here  */
+.drive-the-bengal{
+   flex-direction: column;
+}
+.bengal-text-container{
+    width: 100%;
+}
+.bengal-vedio-container{
+    width: 100%;
+}
+/* drive the bengal ends here  */
 /* Newsletter section starts here  */
 .from {
     flex-direction: column;
