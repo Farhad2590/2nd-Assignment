@@ -488,7 +488,18 @@ nav {
     height: 100%;
 }
 
-
+.save-up-badge{
+    border-radius: 8px;
+    background: #FF5400;;
+    color: #FFF;
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    transform: rotate(-19.628deg);
+    bottom: 100px;
+    left: 195px;
+}
 /* Newsletter section ends here  */
 footer {
     background: rgba(19, 19, 24, 0.05);
