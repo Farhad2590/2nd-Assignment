@@ -1,12 +1,15 @@
 @media screen and (max-width : 600px) {
-    /* *{
+    *{
         padding: 5px;
-    } */
+    }
 /* nav items starts here*/
 /* *body{
     max-width: fit-content;
     margin: 10px;
 } */
+.display{
+    display: none;
+}
 .nav-item{
     display: none;
 }
@@ -59,7 +62,7 @@
 /* choose destination ends here */
 /* service we provide starts here */
 .service-provide-container {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
  
 }
 /* service we provide ends here */
@@ -80,7 +83,12 @@
    
 
 }
+.choose-us-transports {
+    width: 100%;
+
+}
 /* why choose us section ends here  */
+
 /* drive the bengal starts here  */
 .drive-the-bengal{
    flex-direction: column;
@@ -107,10 +115,18 @@
     width: 100%;
    
 }
+.save-up-badge{
+    width: 150px;
+    padding: 10px;
+    height: auto;
+    bottom: 130px;
+    left: 175px;
+}
+
 /* Newsletter section ends here  */
 
 footer{
-
+    margin-top: 0px;
     padding: 50px;
 }
 
