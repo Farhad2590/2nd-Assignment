@@ -173,6 +173,11 @@ nav{
     justify-content: center;
 
 }
+.deal ul {
+    display: flex;
+    gap: 5px;
+}
+
 /* deals and section ends here  */
 /* drive the bengal starts here  */
 .drive-the-bengal{
