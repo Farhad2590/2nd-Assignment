@@ -58,11 +58,15 @@ nav {
 .nav-bar {
     display: none;
 }
-.input-field-1{
+
+.input-field {
     position: relative;
-    top: 5px;
-    /* left: px; */
-    right: 40px;
+}
+.input-field i {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: #999;
 }
 
 
@@ -106,9 +110,11 @@ nav {
     border-radius: 6px;
     background: rgba(255, 255, 255, 0.30);
 }
-.input-field input{
+
+.input-field input {
     padding: 16px;
 }
+
 .banner-input-field input {
     border-radius: 6px;
     background: #FFF;
@@ -173,7 +179,7 @@ nav {
     text-align: center;
     font-size: 1.25rem;
     font-weight: 800;
-    padding: 14px 26px;
+    padding: 12px 22px;
 }
 
 .popular-text-container .btn-primary {
@@ -398,22 +404,113 @@ nav {
 }
 
 /* why choose us section ends here  */
+/* deals and section starts here  */
+
+/* deals and section ends here  */
+.deal-done{
+    margin-top: 100px;
+}
+.deal-done-container{
+    text-align: center;
+}
+.deal-done-container h2 {
+    font-weight: 800;
+    color: #131318;
+    font-size: 1.5rem;
+}
+
+.deal-done-container p {
+    color: #5A5A5D;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+}
+.deal {
+    background-image: url("../images/group-39.png");
+    background-size: cover;
+    padding: 30px 30px;
+    display: flex;
+    justify-content: end;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.deal ul {
+    display: flex;
+    gap: 10px;
+}
+
+.deal li {
+    list-style: none;
+}
+
+.deal-1 {
+    background-image: url("../images/group-40.png");
+    background-size: cover;
+    padding: 30px 30px;
+    display: flex;
+    justify-content: start;
+}
+
+.deal-1 ul {
+    display: flex;
+    gap: 10px;
+}
+
+.deal-1 li {
+    list-style: none;
+}
+
+.deal-cart {
+    width: 400px;
+    height: auto;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    padding: 20px;
+}
+
+.deal-cart-title {
+    font-size: 1.25rem;
+    font-weight: 800;
+    color: #131318;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.deal-cart-decription {
+    color: #5A5A5D;
+    font-weight: 400;
+    font-size: 0.75rem;
+}
+.deal-cart-price{
+    color: #FF5400;
+    font-weight: 800;
+    font-size: 1rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 
 /* drive the bengal starts here  */
-.drive-the-bengal{
+.drive-the-bengal {
     display: flex;
     gap: 5%;
     margin-top: 100px;
 }
-.bengal-text-container{
+
+.bengal-text-container {
     width: 45%;
 }
+
 .bengal-text-container h2 {
     font-weight: 800;
     color: #131318;
     font-size: 1.5rem;
 }
-.bengal-text-container ul{
+
+.bengal-text-container ul {
     padding-left: 25px;
 }
 
@@ -424,12 +521,15 @@ nav {
     margin-bottom: 10px;
 
 }
-.bengal-vedio-container{
+
+.bengal-vedio-container {
     width: 50%;
 }
-.bengal-vedio-container video{
+
+.bengal-vedio-container video {
     width: 100%;
 }
+
 /* drive the bengal ends here  */
 
 /* Newsletter section starts here  */
@@ -498,9 +598,10 @@ nav {
     height: 100%;
 }
 
-.save-up-badge{
+.save-up-badge {
     border-radius: 8px;
-    background: #FF5400;;
+    background: #FF5400;
+    ;
     color: #FFF;
     width: 200px;
     padding: 10px;
@@ -510,6 +611,7 @@ nav {
     bottom: 100px;
     left: 195px;
 }
+
 /* Newsletter section ends here  */
 footer {
     background: rgba(19, 19, 24, 0.05);
@@ -542,7 +644,8 @@ footer p {
     margin-top: 15px;
 
 }
-.horzental-line{
+
+.horzental-line {
     width: 700px;
 }
 
@@ -552,5 +655,5 @@ footer p {
     margin-top: 25px;
     margin-bottom: 25px;
     margin-left: 300px;
-    
+
 }

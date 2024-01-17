@@ -41,14 +41,28 @@ nav{
     /* padding: 16px; */
     flex-direction: column;
 }
-.input-field input{
+
+/* .input-field input{
     padding: 8px 40px;
-}
+} */
 .banner h1 {
     font-size: 1.5rem;
 }
 .banner p{
     padding: 0px 25px;
+}
+.input-field {
+    display: flex;
+    flex-direction: column-reverse; /* Reverse the order for smaller screens */
+}
+
+.input-field input {
+    margin-bottom: 10px; /* Add some spacing between the input and the icon */
+}
+
+.input-field i {
+    position: static; /* Remove absolute positioning for smaller screens */
+    margin-top: 5px; /* Adjust margin for spacing */
 }
 /* banner section ends here  */
 
@@ -160,7 +174,14 @@ nav{
 
 }
 /* why choose us section ends here  */
+/* deals and section starts here  */
+.deal ,.deal-1 {
 
+    padding-top: 200px;
+    justify-content: center;
+
+}
+/* deals and section ends here  */
 /* drive the bengal starts here  */
 .drive-the-bengal{
     margin-top: 20px;
