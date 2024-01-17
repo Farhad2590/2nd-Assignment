@@ -7,6 +7,13 @@
     max-width: fit-content;
     margin: 10px;
 } */
+header {
+    margin-top: 0px;
+}
+.btn-primary {
+    
+    padding: 8px 18px;
+}
 nav{
     justify-content: space-between;
 }
@@ -30,40 +37,23 @@ nav{
 /* nav items ends here*/
 
 /* banner section starts here  */
-.banner {
-    
-    /* padding-top: 80px;
-    padding-bottom: 80px; */
+.banner{
     margin-top: 20px;
 }
 .banner-input-field{
-    /* display: flex; */
-    /* padding: 16px; */
     flex-direction: column;
 }
+.banner-input-submit {
+    padding: 8px 90px 8px 20px;
+}
 
-/* .input-field input{
-    padding: 8px 40px;
-} */
 .banner h1 {
     font-size: 1.5rem;
 }
 .banner p{
     padding: 0px 25px;
 }
-.input-field {
-    display: flex;
-    flex-direction: column-reverse; /* Reverse the order for smaller screens */
-}
 
-.input-field input {
-    margin-bottom: 10px; /* Add some spacing between the input and the icon */
-}
-
-.input-field i {
-    position: static; /* Remove absolute positioning for smaller screens */
-    margin-top: 5px; /* Adjust margin for spacing */
-}
 /* banner section ends here  */
 
 /* popular tours start here   */
@@ -79,7 +69,6 @@ nav{
 }
 
 .popular-text-container p {
-    
     margin-top: 5px;
 
 }
@@ -175,6 +164,9 @@ nav{
 }
 /* why choose us section ends here  */
 /* deals and section starts here  */
+.deal-done{
+    margin-top: 20px;
+}
 .deal ,.deal-1 {
 
     padding-top: 200px;
